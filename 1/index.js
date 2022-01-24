@@ -70,15 +70,15 @@
 // }
 
 /* ZADANIE 2 */
-{
-    const div = document.createElement('div');
-    div.id = 'wynik';
-    document.body.appendChild(div);
+// {
+//     const div = document.createElement('div');
+//     div.id = 'wynik';
+//     document.body.appendChild(div);
 
 
-    for (step = 1; step <= 100; step++) {
-        div.innerText += ` ${step}, `;
-    }
-}
+//     for (step = 1; step <= 100; step++) {
+//         div.innerText += ` ${step}, `;
+//     }
+// }
 
 /* ZADANIE 3 */
