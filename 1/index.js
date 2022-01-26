@@ -82,3 +82,16 @@
 // }
 
 /* ZADANIE 3 */
+// const th = document.querySelectorAll('th');
+// const tr = document.querySelector('.row')
+// const td = document.createElement('td');
+
+// tr.innerHTML = '';
+// for (let item of th) {
+//     let outputValue = Number(item.outerText) * Number(item.outerText);
+//     let text = `<td>${outputValue}</td>`    
+//     tr.innerHTML += text;
+// }
+
+/* ZADANIE 4 */
+
