@@ -113,4 +113,10 @@
 
 /* ZADANIE 2 */
 
-const div = document.querySelector('.text');
+const div = document.querySelector('#opis');
+const liczba = 5;
+
+const linkHtml = `<h1>${liczba} - większa od zera.`;
+const html = `<h1>${liczba} - zero lub liczba ujemna`;
+
+liczba > 0 ? div.insertAdjacentHTML('beforeend', linkHtml) : div.insertAdjacentHTML('beforeend', html);
