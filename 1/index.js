@@ -97,10 +97,16 @@
 
 /* ----------------------------- INSTRUKCJE WARUNKOWE ----------------------------------------------*/
 /* ZADANIE 1 */
+
 const div = document.querySelector('.text');
+console.log(div);
 const liczba = 5;
 
 if (liczba > 0 ) {
-    let linkHtml = `<h1>${liczba} - większa od zera.`
-    div.insertAdjacentElement('beforeend', linkHtml);
+    const linkHtml = `<h1>${liczba} - większa od zera.`;
+    div.insertAdjacentHTML('beforeend', linkHtml);
+}
+else {
+    const html = `<h1>${liczba} - zero lub liczba ujemna`;
+    div.insertAdjacentHTML('beforeend', linkHtml);
 }
