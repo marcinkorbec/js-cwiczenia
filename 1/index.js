@@ -54,7 +54,7 @@
 /* zadanie 3 */
 // to samo co przedtem 
 
-/* PĘTLE */
+/* --------------------------------------------- PĘTLE -----------------------------------------*/
 /* ZADANIE 1 */
 // {
 //     const div = document.createElement('div');
@@ -95,5 +95,5 @@
 
 /* ZADANIE 4 */
 
-/* INSTRUKCJE WARUNKOWE */
+/* ----------------------------- INSTRUKCJE WARUNKOWE ----------------------------------------------*/
 
