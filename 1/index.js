@@ -110,3 +110,7 @@
 //     const html = `<h1>${liczba} - zero lub liczba ujemna`;
 //     div.insertAdjacentHTML('beforeend', html);
 // }
+
+/* ZADANIE 2 */
+
+const div = document.querySelector('.text');
