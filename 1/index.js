@@ -95,3 +95,5 @@
 
 /* ZADANIE 4 */
 
+/* INSTRUKCJE WARUNKOWE */
+
