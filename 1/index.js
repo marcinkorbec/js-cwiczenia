@@ -96,4 +96,11 @@
 /* ZADANIE 4 */
 
 /* ----------------------------- INSTRUKCJE WARUNKOWE ----------------------------------------------*/
+/* ZADANIE 1 */
+const div = document.querySelector('.text');
+const liczba = 5;
 
+if (liczba > 0 ) {
+    let linkHtml = `<h1>${liczba} - większa od zera.`
+    div.insertAdjacentElement('beforeend', linkHtml);
+}
