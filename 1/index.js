@@ -98,15 +98,15 @@
 /* ----------------------------- INSTRUKCJE WARUNKOWE ----------------------------------------------*/
 /* ZADANIE 1 */
 
-const div = document.querySelector('.text');
-console.log(div);
-const liczba = 5;
+// const div = document.querySelector('.text');
+// console.log(div);
+// const liczba = 0;
 
-if (liczba > 0 ) {
-    const linkHtml = `<h1>${liczba} - większa od zera.`;
-    div.insertAdjacentHTML('beforeend', linkHtml);
-}
-else {
-    const html = `<h1>${liczba} - zero lub liczba ujemna`;
-    div.insertAdjacentHTML('beforeend', linkHtml);
-}
+// if (liczba > 0 ) {
+//     const linkHtml = `<h1>${liczba} - większa od zera.`;
+//     div.insertAdjacentHTML('beforeend', linkHtml);
+// }
+// else {
+//     const html = `<h1>${liczba} - zero lub liczba ujemna`;
+//     div.insertAdjacentHTML('beforeend', html);
+// }
